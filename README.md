@@ -3,7 +3,7 @@ This is a Python script that automatically organizes downloaded files by moving 
 
 Features
 Automated Sorting: Automatically moves files to designated folders based on file extension.
-Continuous Monitoring: Runs continuously, checking for new files every 10 seconds.
+Continuous Monitoring: Runs continuously, checking for new files every 5 seconds.
 Customizable: You can easily add more file types or change folder locations.
 Setup Instructions
 Requirements:
@@ -33,5 +33,5 @@ Example
 If you download a file called example.pdf, the script will detect it in your Downloads folder and move it to the "PDFs" folder on your Desktop.
 
 Notes
-The script runs in an infinite loop, checking for new files every 10 seconds.
+The script runs in an infinite loop, checking for new files every 5 seconds.
 To stop the script, press Ctrl+C in the terminal.
